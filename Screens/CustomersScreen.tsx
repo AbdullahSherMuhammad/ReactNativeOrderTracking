@@ -42,7 +42,7 @@ NativeStackNavigationProp<RootStackParamList>
 
 const cScreenStyles = StyleSheet.create({
   container: {
-    //paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight  : 0,
+    paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight  : 0,
     flex: 1,
     backgroundColor: "#59C1CC",
     // alignItems: 'center',
